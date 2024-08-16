@@ -4,12 +4,21 @@
     --botao-azul: #165bf7;
     --cor-de-fundo: #00030c;
 }
-*[
+*{
     margin: 0;
     padding: 0;
-]
-body[
+}
+body{
     background-color: var(--cor-de-fundo);
-    color; var(--branco-principal);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+ .principal{
+    background-image: url(Background.png);
+ }
+ .container {
+    height: 100vh;
     
-]
+ }
